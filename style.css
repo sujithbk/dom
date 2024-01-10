@@ -1,0 +1,10 @@
+
+ul li:nth-child(even){
+    color: blueviolet;
+   }
+   #fi:hover{
+   color: rgb(255, 0, 140);
+   }
+   input:invalid{
+       border:solid 2px rgb(213, 42, 16)
+   }

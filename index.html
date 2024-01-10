@@ -35,7 +35,106 @@
     <input type="submit" value="Sign Up">
   </form>
 
+  <div id="fi">i'm black</div>
+  <ul>
+      <li>ONE</li>
+      <li>TWO</li>
+      <li>THREE</li>
+      <li>FOUR</li>
+  </ul>
+    <div id="contant" onclick="eventAttribue()">Click me if u can</div>
+  <form action="#" method="post">
+      <input type="email" value="admsd14@gmail.com" id="eValue" required onkeydown="emailContant()">
+      <input type="email" value="fgdfd" >
+      <button id="submit">submit</button>
+  </form>
  
+  <div id="rap">
+    <div id="child"></div>
+</div>
+<button onclick="buttonAnimation()">CLICK HERE</button>
+
+<!-- node elements -->
+<h1 id="parent"> Sujith</h1>
+<p>haii all</p>
+<a href="#">Link</a>
+<style>
+
+
+  body {
+ font-family: Arial, sans-serif;
+ background-color: #f2f2f2;
+}
+
+.container {
+ max-width: 400px;
+ margin: 0 auto;
+ padding: 50px;
+ background-color: #cf9292;
+ border-radius: 5px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+ text-align: center;
+}
+
+label {
+ display: block;
+ margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+ width: 100%;
+ padding: 10px;
+ border-radius: 3px;
+ border: 1px solid #ccc;
+}
+
+#submit{
+ display: block;
+ width: 107%;
+ padding: 10px;
+ margin-top: 20px;
+ background-color: #030303;
+ color: #fff;
+ border: none;
+ border-radius: 3px;
+ cursor: pointer;
+}
+
+
+</style>
+
+<div class="container">
+  <h1>Sign Up</h1>
+  <form  id="sign" action="api/register" method="post" onsubmit=" return formValidation()">
+    <label for="name">Name:</label>
+    <span id="nameError"></span>
+    <input type="text" id="name" name="name" >
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="Email" >
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password"  >
+    
+
+    <button id="submit">Submit</button>
+  </form>
+</div>
+
+<!-- window -->
+
+<div id="WindowSize"></div>
+<!-- WindowSize -->
+<!-- <button onclick="getWindowSize()">Click here..</button> -->
+
+<!-- forward backward -->
+<button onclick="Backward()">Backward</button>
+<button onclick="Forward()">Forward</button>
 
     <script src="server.js"></script>
 </body>
